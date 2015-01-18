@@ -42,3 +42,11 @@ Commands ran to build this application :
 - first_user.microposts
 - first_post = first_user.microposts.first
 - first_post.user
+
+-- Finishing app
+- Commit to git
+- git push heroku master
+- heroku run rake db:migrate # NOTE THIS COMMAND
+- heroku open 
+
+DONE. 
